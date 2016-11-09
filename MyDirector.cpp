@@ -22,7 +22,7 @@ void MyDirector::init() {
     viewPort1->prepareVolume();
 //    viewPort1->SetDebug();
     viewPort1->render();
-//    viewPort1->setTimeEventObserver(1000);
+    viewPort1->setTimeEventObserver(1000);
 }
 
 void MyDirector::setDebug() {
